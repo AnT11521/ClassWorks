@@ -1,0 +1,84 @@
+body{
+	font-family: 'Raleway', sans-serif;
+background-color: #ffe59f;
+background-image: url("data/bg.png");
+background-position: center;
+}
+
+#header{
+	color: #ff9fd2;
+	font-size: 28px;
+	top: 15px;	
+	width: 75%;
+	padding: 10px;
+	margin: 30px;
+	margin-top: 100px;
+	border-top: outset;
+	border-left: outset;
+	border-bottom: outset; 
+	border-right: outset;
+	position: relative;
+	background-color: rgba(210,255,159,.8);
+	object-position: center;
+}
+
+#nav{
+	position:relative;
+	top: 15px;
+	margin-left: 10%;
+	width: 75%;
+	font-size: 18px;
+	word-spacing: 20px;
+}
+
+a:link{
+	text-decoration: none;
+	color: #ffe59f;
+}
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: #9ffff9;
+	text-decoration: underline;
+}
+a:active{
+	color: #ff9fd2;
+	text-decoration: none;
+}
+ #content{
+ 	background-color: rgba(159,255,247,.8);
+ 	outline: groove;
+ 	outline-width: 2px: 
+ 	outline-color:black;
+ 	width: 75%;	
+ 	position:  static;
+ 	padding: 10px;
+ 	margin: 30px;
+ 	font-size: 24px;
+
+ }
+h2{
+	font-size: 20px;
+}
+#ad{
+	float: right;
+	position: absolute;
+	object-position: center;
+}
+#img{
+	position: absolute; 
+	right: 20px;
+	top: 50px;
+}
+#img2{
+	position: absolute; 
+	right: 20px;
+	top: 215px;
+}
+#img3{
+	position: absolute; 
+	right: 20px;
+	top: 580px;
+}
